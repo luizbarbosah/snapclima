@@ -90,5 +90,4 @@ function formatTime (epochTime) {
     return `${hours}:${minutes}`
 }
 
-// Formatação de 
 

@@ -53,7 +53,7 @@ body {
     justify-content: center;
     transition: 0.2s;
     box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px,
-     rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+    rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
 }
 
 .header_button:hover {
@@ -89,6 +89,10 @@ body {
 .current-temperature_weather-icon {
     width: 125px;
     margin-top: 15px;
+}
+
+.current-temperature_description:first-letter {
+    text-transform: uppercase;
 }
 
 .current-temperature_description {
